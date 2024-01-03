@@ -39,3 +39,27 @@ const myFunction = function()
 {
     console.log("hello");
 }
+
+
+//************************************************/
+
+//stack mermory used for primitive and heap memory used for non primitive
+
+let myname = "akki";
+
+let anothername = myname
+anothername = "akki1911";
+
+console.log(anothername);
+console.log(myname);
+
+let userone ={
+    email : "xyz@gmail.com",
+    upi : "akki@sbi" 
+
+}
+
+let usertwo = userone
+
+console.log(userone.email);
+console.log(usertwo.email);
