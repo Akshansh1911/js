@@ -35,3 +35,21 @@ console.log(myArr.indexOf(2))
 
 const newArray = myArr.join()// join help to convert arrays into string 
 console.log(typeof(newArray));
+
+
+
+
+//slice ,splice
+
+console.log("a ",myArr );
+
+
+const myn1 = myArr.slice(1,3)
+
+console.log(myn1);
+
+console.log("b ", myArr);
+const myn2 = myArr.splice(1,3)
+console.log(myn2);
+
+console.log("c ", myArr);
