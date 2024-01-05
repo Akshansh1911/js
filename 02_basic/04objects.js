@@ -18,3 +18,21 @@ console.log(Object.values(tuser));
 console.log(tuser.hasOwnProperty('id'));  //it help to find the property like if u have bulk of data it will take lots of time 
 
 
+const course ={
+    cname: "js ",
+    cprice: "99",
+    cinstructor: "Akki"
+}
+
+const {cinstructor} = course
+
+
+console.log(cinstructor);
+
+
+
+//Api
+
+ //json
+
+ 
