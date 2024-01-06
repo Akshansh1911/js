@@ -4,6 +4,9 @@
 //using ()()
 
 (function one(){
+
+//nameiife
+
     console.log("db connceeted");
 })();
 
